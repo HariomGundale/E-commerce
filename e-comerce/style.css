@@ -252,3 +252,27 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.panel-service{
+    display: flex;
+    width: 140px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-releases{
+     display: flex;
+    width: 119px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-fashion{
+     display: flex;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
