@@ -276,3 +276,85 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.panel-electronics{
+    display: flex;
+    width: 95px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-kitchen{
+    display: flex;
+    width: 135px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-computer{
+    display: flex;
+    width: 95px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-car{
+    display: flex;
+    width: 145px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-books{
+    display: flex;
+    width: 65px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/** main **/
+
+.main{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display:flex;
+}
+
+/** content **/
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23.5%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+}
+
+.box1-img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.p1{
+    color: rgb(60, 125, 231);
+}
