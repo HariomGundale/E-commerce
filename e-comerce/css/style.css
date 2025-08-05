@@ -434,5 +434,9 @@ div{
     width: 357px;
     height: 25px;
     border: none;
-    background-color: #cbcae2;
+    background-color: #ffffff;
+}
+
+.Forget{
+    cursor: pointer;
 }

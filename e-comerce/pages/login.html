@@ -7,6 +7,115 @@
     <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
+     <header>
+        <div class="nav" id="nav">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <img class="logo" src="./../picture/logo.jpg">
+                </div>
+            </div>
+
+            <div class="nav-add border">
+                <p class="post">Delivery to </p>
+                <div class="nav-add-loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search border">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search Shoporia" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-lang border">
+                <select class="lang">
+                    <option>ENG</option>
+                </select>
+            </div>
+
+            <div class="nav-account border">
+                <a href=".\..\pages\login.html" target="__blank">
+                    <p class="greet">Hello Sign In</p>
+                    <p class="acc">Account & Lists</p>
+                </a>
+            </div>
+
+            <div class="nav-order border">
+                <p class="greet">Returns</p>
+                <p class="acc">&Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="cart">Cart</p>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-menu border">
+                <i class="fa-solid fa-bars"></i>&nbsp;
+                <p class="panel-text">All</p>
+            </div>
+
+            <div class="panel-fresh border">
+                <p class="panel-text">Fresh</p>
+            </div>
+
+            <div class="panel-sell border">
+                <p class="panel-text">Sell</p>
+            </div>
+
+            <div class="panel-bestseller border">
+                <p class="panel-text">Bestsellers</p>
+            </div>
+
+            <div class="panel-mobiles border">
+                <p class="panel-text">Mobiles</p>
+            </div>
+
+            <div class="panel-deals border">
+                <p class="panel-text">Today's Deals</p>
+            </div>
+
+            <div class="panel-service border">
+                <p class="panel-text">Customer Service</p>
+            </div>
+
+            <div class="panel-releases border">
+                <p class="panel-text">New Releases</p>
+            </div>
+
+            <div class="panel-fashion border">
+                <p class="panel-text">Fashion</p>
+            </div>
+
+            <div class="panel-electronics border">
+                <p class="panel-text">Electronics</p>
+            </div>
+
+            <div class="panel-kitchen border">
+                <p class="panel-text">Home & Kitchen</p>
+            </div>
+
+            <div class="panel-computer border">
+                <p class="panel-text">Computers</p>
+            </div>
+
+            <div class="panel-car border">
+                <p class="panel-text">Car & Motorbikes</p>
+            </div>
+
+            <div class="panel-books border">
+                <p class="panel-text">Books</p>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <img src="./../picture/login.png"/>
              <div class="login box1">
@@ -16,18 +125,20 @@
 
                     <section class="username">
                         <p>Username:</p>
-                        <input type="text" id="detail">
+                        <input type="text" id="detail" required>
                     </section>
                     <br>
                     <section class="username">
                         <p>Password:</p>
-                        <input type="password" id="detail">
+                        <input type="password" id="detail"  required>
                     </section>
                     <br><br>
                     <section>
-                        <button id="login-button">Login</button>
+                        <input type="submit" value="Login" id="login-button">
                     </section><br>
-                    <p><a>Forget Password?</a></p>
+                    <p>
+                        <a class="Forget">Forget Password?</a>
+                    </p>
                 </form>
             </div>
     </div>
